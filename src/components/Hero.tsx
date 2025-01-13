@@ -1,16 +1,12 @@
-import Image from 'next/image';
 import React from 'react'
-import HeroImage from '../public/icon.png'
+ 
 const Hero = () => {
   return (
-    <div>
+    <div className='bg-black text-white text-center py-16'>
+     <img src='./icon.png' alt=''
+     className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105'/>
      
-       <img 
-        src="/icon.png" // No need to import, just reference the path
-        alt="Hero Icon"
-        className="mx-auto mb-8 w-48 h-48 rounded-full object-cover transform-transition-transform
-         duration-300 hover:scale-105" 
-      />
+     
     
       <h1 className='text-4xl font-bold px-4 md:px-32'>
            I'm {" "}
