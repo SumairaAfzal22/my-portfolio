@@ -9,7 +9,7 @@ const Hero = () => {
      
     
       <h1 className='text-4xl font-bold px-4 md:px-32'>
-           I'm {" "}
+           I&#39m {" "}
         <span className=' text-transparent bg-clip-text bg-gradient-to-r from-green-400 to to-blue-500 px-4
         ' >Sumaira Afzal</span>
         ,Full-Stack Developer
